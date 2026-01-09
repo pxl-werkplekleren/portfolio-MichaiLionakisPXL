@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-color: #0f0f0f;
+    color: #ffffff;
+    line-height: 1.6;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: #1a1a1a;
+    position: sticky;
+    top: 0;
+    border-bottom: 2px solid #00ff88;
+}
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.nav-links a:hover {
+    color: #00ff88;
+}
+.container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+.card {
+    background: #1e1e1e;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+}
+h2 {
+    color: #00ff88;
+    margin-bottom: 5px;
+    border-left: 4px solid #00ff88;
+    padding-left: 15px;
+}
+h3 {
+    color: #cfcfcf;
+    margin-bottom: 10px;
+}
+
+.item-block {
+    background: #252525;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 8px;
+}
+.item-block p {
+    margin-bottom: 4px;
+    font-size: 0.95em;
+}
+.small{
+    font-style: italic;
+    font-size: 0.9em;
+    color: #999;
+    margin-bottom: 10px;
+}
+strong {
+    color: #00ff88;
+}
+.sub-content {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #333;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background: #252525;
+}
+th, td {
+    border: 1px solid #444;
+    padding: 12px;
+    text-align: left;
+}
+th {
+    background-color: #333;
+    color: #00ff88;
+}
+.xfactor-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.xfactor-item {
+    background: #1c2128;
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid #30363d;
+}
+
+.xfactor-item h4, .xfactor-bottom h4 {
+    color: #00ff88;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.xfactor-bottom {
+    margin-top: 20px;
+    background: rgba(0, 255, 136, 0.05);
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px dashed #00ff88;
+}
+
+.icon {
+    margin-right: 10px;
+    font-style: normal;
+}
+
+/*css code voor logboek.html*/
+.badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+.eval { background: rgba(0, 255, 136, 0.15); color: #00ff88; border: 1px solid #00ff88; }
+.opdr { background: rgba(207, 207, 207, 0.1); color: #cfcfcf; border: 1px solid #444; }
+
+.table-wrapper { overflow-x: auto; }
